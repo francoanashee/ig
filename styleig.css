@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.nombreperfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.verificado{
+    width: 20px;
+    height: 20px;
+}
+
+
+header img {
+    width: 20%;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+}
+
+header button {
+    background-color: rgb(0, 149, 246) ;
+    color: white;
+    padding: 11px 10px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+
+.puntos{
+    width: 20px;
+    height: 20px;
+}
+
+/* --------------------------- */
+
+.bodyfoto{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 15px;
+}
+
+.bodyfoto img{
+    border-radius: 100%;
+}
+
+#contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.messiFotoPerfil {
+    height: 19vh;
+}
+
+.bodyfoto button{
+    background-color: rgba(0, 0, 0, 0.123) ;
+    color: black;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;    
+
+}
+
+
+
+.descripcion img {
+    font-family: "Roboto", sans-serif;
+    height: 5%;
+    margin-left: 10px;
+}
+
+.descripcion p{
+    font-family: "Roboto", sans-serif;
+    margin-left: 15px;
+}
+
+.descripcion {
+    font-family: "Roboto", sans-serif;
+    margin-left: 15px;
+}
+
+.nombredescrip{
+    font-weight: bold;
+    margin: 3px;
+}
+
+.deportista{
+    color: rgba(0, 0, 0, 0.562);
+    margin: 3px;
+}
+
+.descrip1{
+    margin: 4px;
+}
+
+.descrip2{
+    margin: 4px;
+    margin-bottom: -5px;
+}
+.link{
+    color: rgb(31, 7, 63);
+    display: flex;
+    align-items: center;
+    margin-left: -4px;
+    text-decoration: none;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+}
+
+.foto{
+    width: 33%;
+    height: 33vw;
+    margin-top: 0.5%;
+}
+
+/****************************/
+@media (min-width: 750px){
+    #contenedor{
+        justify-content: center;
+    }
+}
+/****************************/
+@media (min-width: 1024px){
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .botones  {
+        margin: 10px 0 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    .header1 {
+        max-width: 1024px;
+    }
+}
+
+
